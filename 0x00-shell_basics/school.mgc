@@ -1,3 +1,2 @@
 #!/bin/bash
-file --mime-type -m School.html
-/usr/share/misc/school.mgc
+magic file -type byte[0]
