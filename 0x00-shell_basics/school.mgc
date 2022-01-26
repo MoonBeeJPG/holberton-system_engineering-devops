@@ -1,3 +1,3 @@
 #!/bin/bash
-file --mime-type -b School.htmL
+file --mime-type -b school.htmL
 /usr/share/misc/magic.mgc
