@@ -1,2 +1,3 @@
 #!/bin/bash
-xdg-mime query filetype SCHOOL
+file --mime-type -b School.htmL
+/usr/share/misc/magic.mgc
