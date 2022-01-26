@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -m
+ls -l *. -A -d -m [A-Z]* [0-9]* 
