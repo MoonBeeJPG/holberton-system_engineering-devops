@@ -1,2 +1,3 @@
 #!/bin/bash
-magic file -type byte[0]
+magic file -type/byte[0]
+
