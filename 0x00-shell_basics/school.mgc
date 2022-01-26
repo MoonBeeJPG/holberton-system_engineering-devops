@@ -1,2 +1,2 @@
 #!/bin/bash
-file --mime-type -b SCHOOL
+xdg-mime query filetype SCHOOL
