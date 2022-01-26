@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l -a -d -m [0-9]* [A-Z]* /tmp* 
+ls ./ ../ -l -a -d -m [0-9]* [A-Z]* 
