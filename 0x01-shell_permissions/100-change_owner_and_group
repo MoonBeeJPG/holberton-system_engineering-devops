@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -user julien -exec chown vincent:staff
+-user julien -exec chown vincent:staff
