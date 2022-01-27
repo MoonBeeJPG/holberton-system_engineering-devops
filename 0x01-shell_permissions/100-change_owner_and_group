@@ -1,2 +1,2 @@
 #!/bin/bash
--user julien -exec chown vincent:staff
+chmod -R 111 */
