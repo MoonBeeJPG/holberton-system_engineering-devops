@@ -1,2 +1,2 @@
 #!/bin/bash
-APACHE_ACCESS_LOG_PATTERN = '^(\S+) (\S+) (\S+) \[([\w:/]+\s[+\-]\d{4})\] "(\S+) (\S+)\s*(\S*)" (\d{3}) (\S+)'
+logparser "select cs-uri-stem, count(cs-uri-stem) as requestcount from [LogFileName] where c-ip = ‘000.00.00.000’ group by cs-uri-stem order by count(cs-uri-stem) desc"
