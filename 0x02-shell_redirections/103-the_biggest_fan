@@ -1,2 +1,2 @@
 #!/bin/bash
-LogParser "SELECT QUANTIZE(TimeGenerated, 86400) AS Day, COUNT(*) AS [Total Errors] FROM Application WHERE EventType = 1 OR EventType = 2 GROUP BY Day ORDER BY Day ASC"
+LogFormat "%h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" combined
