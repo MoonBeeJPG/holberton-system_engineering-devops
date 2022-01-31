@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -P '(wp-login|regist)' access.log | grep GET
+dig $(awk ‘END{ print $1 }’ access.log)
