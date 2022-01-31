@@ -1,2 +1,2 @@
 #!/bin/bash
-sed 's/./\u&/' infile
+cut -c1 | paste -s -d ""
