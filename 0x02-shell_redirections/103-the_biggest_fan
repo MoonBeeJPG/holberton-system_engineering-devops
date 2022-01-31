@@ -1,2 +1,2 @@
 #!/bin/bash
-logparser "select cs-uri-stem, count(cs-uri-stem) as requestcount from [LogFileName] where c-ip = ‘000.00.00.000’ group by cs-uri-stem order by count(cs-uri-stem) desc"
+tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 | tr -s ' ' | cut -d' ' -f3
