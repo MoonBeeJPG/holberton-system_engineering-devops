@@ -1,4 +1,2 @@
 #!/bin/bash
-cat > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) <<"EOF"
-Best School
-EOF
+cat > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) <<EOF Best School EOF
