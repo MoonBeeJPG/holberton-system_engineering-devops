@@ -1,2 +1,2 @@
 #!/bin/bash
-LogFormat "%h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" combined
+grep -C 1 -m 1 ‘jquery’ access.log
