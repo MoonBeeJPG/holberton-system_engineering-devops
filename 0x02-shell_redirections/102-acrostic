@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -Eo '^[^ ]+' file
+sed 's/./\u&/' infile
