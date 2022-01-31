@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la 2>&1 > tail +1 iacta
+stdout 2>&1 > tail +1 iacta
