@@ -1,2 +1,2 @@
 #!/bin/bash
-ls 2>&1 > tail -n +1 iacta
+ls tail -n +1 iacta 2>&1
