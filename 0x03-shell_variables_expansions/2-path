@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH="$HOME/bin:$PATH" source ~/action
+export PATH="$HOME/bin:$PATH" nano ~/.action
