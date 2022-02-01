@@ -1,2 +1,2 @@
 #!/bin/bash
-perl '$.%3 or print;' file
+perl -ne 'print if (++$x)%2' file1 > file2
