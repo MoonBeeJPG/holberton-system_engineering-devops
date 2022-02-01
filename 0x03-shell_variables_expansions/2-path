@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH="$HOME/bin:$PATH" nano ~/.bashrc source ~/action
+export PATH="$PATH:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin/action"
