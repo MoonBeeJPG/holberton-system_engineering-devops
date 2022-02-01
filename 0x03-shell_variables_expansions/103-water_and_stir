@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $bestchol bestchol="$(($WATER+$STIR))" | export WATER="water" | export STIR="stir"
+echo bestchol=$(expr "$WATER"+"$STIR") 
