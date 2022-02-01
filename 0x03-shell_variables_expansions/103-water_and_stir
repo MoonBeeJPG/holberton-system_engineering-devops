@@ -1,2 +1,2 @@
 #!/bin/bash
-echo bestshool=$(($WATER+$STIR)) $bestshool
+echo bestschool=$(($WATER+$STIR)) WATER="water" STIR="stir" bestschool=$bestschool
