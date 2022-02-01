@@ -1,2 +1,2 @@
 #!/bin/bash
-cat - | grep "something" | echo $l_line
+cat file
