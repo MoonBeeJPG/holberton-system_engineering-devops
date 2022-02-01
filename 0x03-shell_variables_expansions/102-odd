@@ -1,2 +1,2 @@
 #!/bin/bash
-cat file
+perl -lne '$.%3 or print;' file
