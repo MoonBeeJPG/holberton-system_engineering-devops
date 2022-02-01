@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello $USER" my_name=$USER 
+echo "hello $USER" whoami=$USER 
