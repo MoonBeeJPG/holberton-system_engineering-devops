@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#A Bash script that displays Best School 10 times but in the 4th iteration display bad luck and
+#for the 8th iteration display good luck, using while, for, elif and else
+i=0
+while [ $i -lt 10 ]
+do
+	((i++))
+  if [ $i -eq 4 ]
+  then
+    echo "bad luck"
+	elif [ $i -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+  fi
+done

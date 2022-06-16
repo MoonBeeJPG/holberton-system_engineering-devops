@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#A Bash script that displays Best School 10 times but in the 4th iteration display bad luck and
+#for the 8th iteration display good luck, using while, for, elif and else
+minutes=0
+hours=0
+while [ $hours -lt 12 ]
+do
+  echo "Hour = $hours"
+  while [ $minutes -lt 60 ]
+  do
+    echo "$minutes"
+    ((minutes++))
+  done
+  ((hours++))
+done
