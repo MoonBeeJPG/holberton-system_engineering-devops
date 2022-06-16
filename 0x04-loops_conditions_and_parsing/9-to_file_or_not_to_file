@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#A Bash script that gives information about the school file
+FILE=*/school:x
+
+if [[ ! -f "$school" ]]
+then
+	echo "school file does not exist"
+else
+	echo "school file exist"
+	if [[! -s $school]]
+  then
+    echo "school file is empty"
+  else
+    echo "school file is not empty"
+  fi
+fi
