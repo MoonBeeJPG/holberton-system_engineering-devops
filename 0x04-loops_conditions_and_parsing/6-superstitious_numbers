@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-#A Bash script that displays Best School 10 times but in the 4th iteration display bad luck and
-#for the 8th iteration display good luck, using while, for, elif and else
+#A Bash script that displays numbers from 1 to 20 and displays 4 and then bad luch from China, 9 an then bas luck from Japan and 17 bad luck from Italy using while and case
 i=1
 while [ $i -lt 21 ]
 do
