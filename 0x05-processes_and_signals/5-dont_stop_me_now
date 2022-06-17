@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#A Bash script that displays To infinity and beyond indefinitely and stops with kill
+i=0
+while [ $i -lt 1 ]
+do
+  echo "To infinity and beyond"
+  kill
+done
